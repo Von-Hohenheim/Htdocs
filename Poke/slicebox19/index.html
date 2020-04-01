@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+
+	<meta charset="UTF-8" />
+	<title>Slice box</title>
+	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	
+
+</head>
+<body scroll="no" >
+	<div class="container">
+
+		
+
+		<!-- 		<a><span></span></a> 
+				<center><img src="banner.png" alt="Logo" width="30%" height="30%"/></center> -->
+		
+			
+
+			<div class="wrapper" >
+
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img src="01.png" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Pokemon Master X - Regresa, Proximamente se abrira la Beta</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="02.png" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Cloned Quest Disponible</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="03.png" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Saffron ha sido reformado</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="04.jpg" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Musica - Violinista</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="05.png" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Atardecer en el mar</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="06.png" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Toca con el corazon</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="07.jpg" alt="image1" /></a>
+						<div class="sb-description">
+							<h3>Acompañamiento</h3>
+						</div>
+					</li>
+				</ul>
+
+				<!-- <div id="shadow" class="shadow"></div> -->
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+			</div><!-- /wrapper -->
+			
+
+			
+
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
+		
+</body>
+</html>
