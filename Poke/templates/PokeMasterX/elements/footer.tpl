@@ -66,9 +66,10 @@ footer iframe {
     <div class="footerHeader" ></div>
     <div class="container">
 		<div class="col-md-4">
-		    <h3>Sobre Nós</h3>
+		    <h3>Sobre Nosotros</h3>
 		    <p>
-		      Somos a PokeMasterX, um servidor que está em desenvolvimento contínuo desde 2015. Nossas features completas você pode verificar acessando nosso site. Para melhor experiência, acesse nosso jogo e veja com seus próprios olhos!<br/>
+		      
+				Somos PokeMasterX, un servidor que ha estado en continuo desarrollo desde 2019. Puede consultar nuestras funciones completas visitando nuestro sitio web. Para una mejor experiencia, accede a nuestro juego y compruébalo por ti mismo!<br/>
 			  <br/><small>Pokémon Copyright © 1995 - 2018 Nintendo/Creatures Inc./GAME FREAK Inc. Pokémon And All Respective Names are Trademarks of Nintendo 1996-2018 PokeMasterX is not affiliated with Nintendo, Creatures Inc. and GAME FREAK Inc.</small>
 		    </p>
 		</div>
