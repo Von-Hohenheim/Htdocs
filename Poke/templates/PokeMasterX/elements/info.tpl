@@ -42,7 +42,7 @@
 <a href="https://trello.com/b/JsUk0DO8/pokémasterx" target="_blank"><img src="{$template_path}/img/instagram_64.png" width="64px" height="64px"></img></a>
 <a href="#" target="_blank"><img src="{$template_path}/img/youtube_64.png" width="64px" height="64px"></img></a>
 <br/><br/>
-<iframe src="https://discordapp.com/widget?id=692024801388265472&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<iframe src="https://discordapp.com/widget?id=692024801388265472&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0"></iframe>
 </center></div>
 
 <br/>
