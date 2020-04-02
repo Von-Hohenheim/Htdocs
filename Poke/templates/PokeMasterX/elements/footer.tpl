@@ -79,13 +79,13 @@ footer iframe {
 		    <a href="https://www.facebook.com/pokemonxmaster/" target="_blank"><img src="{$template_path}/img/banner-rodape.png"/></a>
 		</div>
 		<div class="col-md-4" >
-		    <h3>Contato</h3>
+		    <h3>Contacto</h3>
 		    <ul>
 		        <li><a href="#"><button type="button" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-heart"></span> Blog PokeMasterX</button></a></li>
 				<li>&nbsp;</li>
-		        <li><a href="#"><button type="button" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-info-sign"></span> Central de Suporte</button></a></li>
+		        <li><a href="#"><button type="button" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-info-sign"></span> Central de Soporte</button></a></li>
 				<li>&nbsp;</li>
-				<li><a href="#"><button type="button" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-send"></span> contato@pokemasterx.com</button></a></li>
+				<li><a href="#"><button type="button" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-send"></span> joaquin2455@pokemasterx.com</button></a></li>
 		    </ul>
 			<br/><br/><br/>
 		    <ul class="sm">
