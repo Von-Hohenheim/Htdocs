@@ -53,5 +53,5 @@
 	Promociones
 </div>
 <div class="Promocion"><center>
-<a href="#" target="_blank"><img src="{$template_path}/img/promocao.png"></img></a>
+<a href="#" target="_blank"><img src="{$template_path}/img/promocion.png"></img></a>
 </center></div><br/>

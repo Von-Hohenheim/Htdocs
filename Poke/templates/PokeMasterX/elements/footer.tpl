@@ -76,7 +76,7 @@ footer iframe {
 		
 		<div class="col-md-4">
 		    <h3>Facebook </h3>
-		    <a href="https://www.facebook.com/pokemonxmaster/" target="_blank"><img src="{$template_path}/img/banner-rodape.png"/></a>
+		    <a href="https://www.facebook.com/Pokemonmx-109637487349033/" target="_blank"><img src="{$template_path}/img/banner-rodape.png"/></a>
 		</div>
 		<div class="col-md-4" >
 		    <h3>Contacto</h3>
