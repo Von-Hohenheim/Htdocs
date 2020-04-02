@@ -89,7 +89,7 @@ footer iframe {
 		    </ul>
 			<br/><br/><br/>
 		    <ul class="sm">
-		        <li>2018 by EmpireSoft - All rights reserveds! <a href="#" >EmpireSoft</a></li>
+		        <li>2019 by Thor Soft - All rights reserveds! <a href="#" >Thor Soft</a></li>
 		        
 		    </ul>
 		</div>
